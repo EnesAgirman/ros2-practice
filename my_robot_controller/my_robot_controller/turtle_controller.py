@@ -31,7 +31,6 @@ class TurtleController(Node):
         cmd = Twist()
         
         
-        
         if pose.x < 8.0 and pose.x > 1.0 and pose.y < 8.0 and pose.y > 1.0: 
 
             cmd.linear.x = self.xSpeed
