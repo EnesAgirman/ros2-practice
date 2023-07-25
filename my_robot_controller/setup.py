@@ -24,6 +24,7 @@ setup(
             "draw_circle = my_robot_controller.draw_circle:main",
             "pose_subscriber = my_robot_controller.pose_subscriber:main",
             "wall_bouncer = my_robot_controller.wall_bouncer:main",
+            "turtle_controller = my_robot_controller.turtle_controller:main",
 
         ],
     },
